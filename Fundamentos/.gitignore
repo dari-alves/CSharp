@@ -1,0 +1,58 @@
+# Arquivos de compila��o e sa�da
+bin/
+obj/
+
+# Arquivos tempor�rios
+*.user
+*.bak
+*.log
+
+# Arquivos de depend�ncias NuGet
+packages/
+
+# Arquivos de configura��o do Visual Studio
+*.vs/
+
+# Arquivos de cache do ReSharper
+_ReSharper*/
+
+# Arquivos de cache do Rider
+.idea/
+
+# Arquivos de cache do Visual Studio Code
+.vscode/
+
+# Arquivos de configura��o espec�ficos do usu�rio
+*.suo
+*.sln.cache
+
+# Arquivos de compila��o
+*.dll
+*.exe
+
+# Arquivos de s�mbolos de depura��o
+*.pdb
+
+# Arquivos de configura��o
+*.config
+
+# Arquivos de sa�da de teste
+TestResults/
+
+# Arquivos de registro
+*.log
+
+# Arquivos tempor�rios do CodeLens
+*.ide
+
+# Cache de navega��o de c�digo
+*.opendb
+
+# Ferramentas de an�lise de c�digo
+*.CodeAnalysisLog
+
+# Build ou arquivos de sa�da de depura��o
+*.dll
+*.pdb
+
+.idea/
