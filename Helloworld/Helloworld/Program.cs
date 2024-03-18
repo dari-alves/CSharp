@@ -17,5 +17,7 @@ class Program
 
         myThermometer.Temperature();
 
+        myCar.Test2();
+
     }
 }
