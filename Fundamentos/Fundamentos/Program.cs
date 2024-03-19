@@ -56,17 +56,23 @@ class Program
         
         // Dates
        
-        DateOnly day = new DateOnly(2024, 3, 19);
+        // DateOnly day = new DateOnly(2024, 3, 19);
+        //
+        // string dayInText = day.ToString(new CultureInfo("en-US"));
+        //
+        // DateTime today = DateTime.UtcNow;
+        //
+        // DateTime tomorrow = today.AddDays(1);
+        //
+        // Console.WriteLine(dayInText);
+        // Console.WriteLine(today);
+        // Console.WriteLine(tomorrow);
 
-        string dayInText = day.ToString(new CultureInfo("en-US"));
+        Data2 data = new Data2();
 
-        DateTime today = DateTime.UtcNow;
-
-        DateTime tomorrow = today.AddDays(1);
-        
-        Console.WriteLine(dayInText);
-        Console.WriteLine(today);
-        Console.WriteLine(tomorrow);
+        Console.WriteLine("Level: " + Data2.DifficultyLevel.Easy + " Level Int: " + (int)Data2.DifficultyLevel.Easy);
+        Console.WriteLine("Level: " + Data2.DifficultyLevel.Normal + " Level Int: " + (int)Data2.DifficultyLevel.Normal);
+        Console.WriteLine("Level: " + Data2.DifficultyLevel.Hard + " Level Int: " + (int)Data2.DifficultyLevel.Hard);
     }
 }
 
