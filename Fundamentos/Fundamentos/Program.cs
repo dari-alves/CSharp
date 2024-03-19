@@ -1,4 +1,6 @@
-﻿namespace Fundamentos;
+﻿using System.Text;
+
+namespace Fundamentos;
 
 class Program
 {
@@ -29,6 +31,27 @@ class Program
         
         Console.WriteLine(doubleNumber);
         Console.WriteLine(doubleNumber.GetType().Name);
+
+        string path = @"C:\test"; // "C:\\test"
+
+        string firstName = "Iori";
+        string lastName = "Yagami";
+
+        string fullName = $"{firstName} {lastName}";
+        
+        // String Builder
+        StringBuilder stringBuilder = new StringBuilder();
+
+        stringBuilder.Append(firstName);
+        stringBuilder.Append(lastName);
+
+        string result = stringBuilder.ToString();
+
+        string user = "Name: {0}. \nPassword: {1}";
+
+        string userData = string.Format(user, "Vegeta", 8000);
+        
+        Console.WriteLine(userData);
     }
 }
 
