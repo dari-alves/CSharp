@@ -73,6 +73,19 @@ class Program
         Console.WriteLine("Level: " + Data2.DifficultyLevel.Easy + " Level Int: " + (int)Data2.DifficultyLevel.Easy);
         Console.WriteLine("Level: " + Data2.DifficultyLevel.Normal + " Level Int: " + (int)Data2.DifficultyLevel.Normal);
         Console.WriteLine("Level: " + Data2.DifficultyLevel.Hard + " Level Int: " + (int)Data2.DifficultyLevel.Hard);
+        
+        // var
+        var name2 = "Son Goku";
+        
+        // object
+        object name3 = "Kuririn";
+        
+        // null
+        int? age = null;
+
+        bool informedAge = age.HasValue;
+        
+        Console.WriteLine(informedAge);
     }
 }
 
