@@ -10,8 +10,17 @@ class Program
 
         integers[0] = 1;
         
-        Console.WriteLine(integers.Length);
-        Console.WriteLine(floats.Length);
+        // list
+        List<int> listIntegers = new List<int>();
+        
+        listIntegers.Add(1);
+        listIntegers.Add(2);
+        listIntegers.Add(3);
+        
+        // listIntegers.RemoveAt(0);
+        listIntegers.Clear();
+        
+        Console.WriteLine(listIntegers.Count);
     }
 }
 
